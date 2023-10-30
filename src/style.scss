@@ -19,3 +19,25 @@ li {
     color: $odd-color;
   }
 }
+
+
+.name-form {
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+
+  input[type="color"] {
+    margin-left: 8px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}

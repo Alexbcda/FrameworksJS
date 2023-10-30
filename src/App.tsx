@@ -5,6 +5,8 @@ import ProfName from './components/ProfName';
 import Helloworld from './components/HelloWorld';
 import Counter from './components/Counter'; 
 import List from './components/List';
+import NameForm from './components/NameForm';
+
 
 function App() {
     return (
@@ -14,6 +16,7 @@ function App() {
             <Helloworld />
             <Counter /> 
             <List />
+            <NameForm />
         </div>
     );
 };
