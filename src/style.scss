@@ -5,3 +5,17 @@ $maCouleur: #ff0000;
 .helloWorld {
   color: $maCouleur;
 }
+
+$even-color: navy;
+$odd-color: black;
+
+li {
+  padding: 5px;
+  &:nth-child(even) {
+    color: $even-color;
+  }
+
+  &:nth-child(odd) {
+    color: $odd-color;
+  }
+}

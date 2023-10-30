@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import ProfName from './components/ProfName';
 import Helloworld from './components/HelloWorld';
 import Counter from './components/Counter'; 
-
+import List from './components/List';
 
 function App() {
     return (
@@ -13,6 +13,7 @@ function App() {
             <ProfName />
             <Helloworld />
             <Counter /> 
+            <List />
         </div>
     );
 };
