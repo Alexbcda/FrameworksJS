@@ -6,7 +6,7 @@ import Helloworld from './components/HelloWorld';
 import Counter from './components/Counter'; 
 import List from './components/List';
 import NameForm from './components/NameForm';
-
+import TodoList from './components/TodoList';
 
 function App() {
     return (
@@ -17,6 +17,7 @@ function App() {
             <Counter /> 
             <List />
             <NameForm />
+            <TodoList />
         </div>
     );
 };
